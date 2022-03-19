@@ -1,7 +1,6 @@
 # Invoice Creator React App
 
-<img src="https://i.ibb.co/1sn305b/invoice.png" alt="invoice" border="0"> <img src="https://i.ibb.co/TT6wRLY/invoiceadded.png" alt="invoiceadded" border="0">
-
+<img src="https://i.ibb.co/FB8Drsh/invoice.png" alt="invoice" border="3px solid black">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

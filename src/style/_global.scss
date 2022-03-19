@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+
+    background: #1C1C1C;
+    
+}
+
+#root {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+// Custom classes
+
+.container {
+    background: #FFFFFF;
+}
+
+.border-top {
+    border-top: 1px solid #C3C6DB;
+}
+.flex {
+    display: flex;
+}
+
+.item {
+    color: #4A4E74;
+}
+
+.rmv {
+    font-size: 11px;
+    font-weight: 400;
+    cursor: pointer;
+    color:#777db9;
+}
+
+.rmv:active {
+    color: #0d0d11;
+}
+
+.price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: right;
+    color: #4A4E74;
+}
+
+.grid {
+    display: grid;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modal_content {
+    background-color: white;
+    position: absolute;
+}
